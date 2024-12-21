@@ -1,0 +1,16 @@
+[
+    {"server":"172.19.3.69","network":"IA","station":"BUJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"CTJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"GBJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"GGJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"GGJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"GUJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"JBJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"JWJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"KBJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"KKJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"KWJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"MKJM","location":"00","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"WOJI","location":"","channel":"SHZ"},
+    {"server":"172.19.3.69","network":"IA","station":"CMJI","location":"","channel":"SHZ"}
+]

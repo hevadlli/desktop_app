@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aba7260a4b50e444d10f42e7e2ae1f40 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aba7260a4b50e444d10f42e7e2ae1f40" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aba7260a4b50e444d10f42e7e2ae1f40 = L.map(
+                "map_aba7260a4b50e444d10f42e7e2ae1f40",
+                {
+                    center: [-6.5382, 113.4005],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4fa4c8f18d5568d7b3b2161e06a5a816 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Tiles \u0026copy; Esri \u0026mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4fa4c8f18d5568d7b3b2161e06a5a816.addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var marker_859fe548ba5a9919e76edf62625e31e5 = L.marker(
+                [-6.5382, 113.4005],
+                {}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var div_icon_e8575ee09c2a841b34a1f9225e3c8da2 = L.divIcon({"className": "empty", "html": "\n                                        \u003cdiv style=\"\n                                            position: absolute;\n                                            transform: translate(-25%, -30%);\n                                            font-size: 24px;\n                                            color: #ff8100;\n                                        \"\u003e\u0026#9733;\u003c/div\u003e\n                                        "});
+            marker_859fe548ba5a9919e76edf62625e31e5.setIcon(div_icon_e8575ee09c2a841b34a1f9225e3c8da2);
+        
+    
+            var circle_4a50fcd3ac0e4083531ab6e010c088c3 = L.circle(
+                [-6.5382, 113.4005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var circle_04ee81936a0bf916cfb75972f257fd33 = L.circle(
+                [-6.5382, 113.4005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 40000, "stroke": true, "weight": 3}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var circle_3be504c419598296e7fcd2028a730a22 = L.circle(
+                [-6.5382, 113.4005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.6, "radius": 60000, "stroke": true, "weight": 3}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var circle_6b766d33c2746560ac5ae2768fc6a94d = L.circle(
+                [-6.5382, 113.4005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.4, "radius": 80000, "stroke": true, "weight": 3}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+    
+            var circle_e049205e16c50ea5d871079295989f05 = L.circle(
+                [-6.5382, 113.4005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 100000, "stroke": true, "weight": 3}
+            ).addTo(map_aba7260a4b50e444d10f42e7e2ae1f40);
+        
+</script>
+</html>
